@@ -24,7 +24,7 @@ namespace WebApplicationTest.Controllers
             var model = new IndexViewModel
             {
                 Players = _playerRepository.GetAll().ToList(),    // constructor injecteddd
-                Games = gameRepository.GetTodaysGames().ToList()      // parameter injected
+                Games = gameRepository.GetTodaysGames().ToList()      // parameter injectedddd
             };
 
             return View(model);
