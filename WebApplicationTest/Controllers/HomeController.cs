@@ -23,7 +23,7 @@ namespace WebApplicationTest.Controllers
                 {
                         var model = new IndexViewModel
                         {
-                                Players = _playerRepository.GetAll().ToList(),    // constructor injected mac88
+                                Players = _playerRepository.GetAll().ToList(),    // constructor injected mac99
                                 Games = gameRepository.GetTodaysGames().ToList()      // parameter injecteddddddssssddddd
                         };
 
@@ -33,7 +33,7 @@ namespace WebApplicationTest.Controllers
                 public IActionResult About()
                 {
 
-                        ViewData["Message"] = "Your application description pageeee.    kkkkk mac888";
+                        ViewData["Message"] = "Your application description pageeee.    kkkkk mac999";
 
                         return View();
                 }
