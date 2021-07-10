@@ -33,7 +33,7 @@ namespace WebApplicationTest.Controllers
         public IActionResult About()
         {
 
-            ViewData["Message"] = "Your application description pageeee.    kkkkk mac444";
+            ViewData["Message"] = "Your application description pageeee.    kkkkk win555";
 
             return View();
         }
