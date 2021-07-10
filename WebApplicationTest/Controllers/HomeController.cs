@@ -23,7 +23,7 @@ namespace WebApplicationTest.Controllers
         {
             var model = new IndexViewModel
             {
-                Players = _playerRepository.GetAll().ToList(),    // constructor injecteddd
+                Players = _playerRepository.GetAll().ToList(),    // constructor injectedddddddddd
                 Games = gameRepository.GetTodaysGames().ToList()      // parameter injectedddd
             };
 
