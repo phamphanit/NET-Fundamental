@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure", "DataStructure.csproj", "{2EF37C93-A255-4A9E-9322-1013F9BD2EC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructure", "DataStructure.csproj", "{2EF37C93-A255-4A9E-9322-1013F9BD2EC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructureTests", "..\DataStructureTests\DataStructureTests.csproj", "{2E8E5C5B-DD36-4BB9-95AC-EC32F8FF9201}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructureTests", "..\DataStructureTests\DataStructureTests.csproj", "{2E8E5C5B-DD36-4BB9-95AC-EC32F8FF9201}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms", "..\Algorithms\Algorithms.csproj", "{B356B4CA-6B3E-487D-AF38-D87429E99FEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringSearching", "..\StringSearching\StringSearching.csproj", "{A301E687-91BF-49B1-A835-431C0FD0B883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVLTree", "..\AVLTree\AVLTree.csproj", "{96FEA706-8E15-43FB-878A-B5584962CEAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{2E8E5C5B-DD36-4BB9-95AC-EC32F8FF9201}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E8E5C5B-DD36-4BB9-95AC-EC32F8FF9201}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E8E5C5B-DD36-4BB9-95AC-EC32F8FF9201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B356B4CA-6B3E-487D-AF38-D87429E99FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B356B4CA-6B3E-487D-AF38-D87429E99FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B356B4CA-6B3E-487D-AF38-D87429E99FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B356B4CA-6B3E-487D-AF38-D87429E99FEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A301E687-91BF-49B1-A835-431C0FD0B883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A301E687-91BF-49B1-A835-431C0FD0B883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A301E687-91BF-49B1-A835-431C0FD0B883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A301E687-91BF-49B1-A835-431C0FD0B883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96FEA706-8E15-43FB-878A-B5584962CEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96FEA706-8E15-43FB-878A-B5584962CEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96FEA706-8E15-43FB-878A-B5584962CEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96FEA706-8E15-43FB-878A-B5584962CEAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
